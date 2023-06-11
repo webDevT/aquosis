@@ -1,0 +1,420 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+* 
+    box-sizing: border-box
+body 
+    font-family: $main-font
+    font-size: 18px
+    box-sizing: border-box
+.container-fluid 
+    width: 1473px
+    max-width: 90vw
+    padding-left: 0 
+    padding-right: 0
+.h2 
+    font-size: 65px 
+    font-weight: 500
+    text-transform: uppercase
+    line-height: 1
+    span 
+        color: #149B9E
+.h3 
+    font-size: 45px 
+    text-transform: uppercase
+    font-weight: 500
+    line-height: 1.2
+.h4 
+    font-size: 22px 
+    font-weight: 600
+.blue 
+    color: $blue
+.aqua 
+    color: $aqua
+.wrapper
+    width: 1296px 
+    max-width: 100%
+    margin-left: auto 
+    margin-right: auto
+//end global style 
+
+//start header 
+.header 
+    padding-top: 42px 
+    padding-bottom: 40px
+    .container-fluid 
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 1550px
+.menu 
+    margin-right: 5vw
+    ul 
+        display: flex 
+        align-items: center 
+        margin: 0 
+        padding: 0
+        list-style: none
+        li 
+            margin-left: 45px
+.menu__link
+    font-size: 18px 
+    font-weight: 500
+    text-decoration: none
+    color: $blue 
+.menu__link:hover 
+    color: $blue 
+.search-input 
+    width: 303px 
+    height: 30px 
+    background: #D5DCE1
+    border-radius: 8px
+    border: none
+    margin-right: 30px
+    margin-left: 30px
+    outline: none
+    padding-left: 15px 
+    padding-right: 15px
+.search-user-wrapper
+    display: flex 
+    align-items: center
+.header-wrapper
+    display: flex 
+    align-items: center
+//end header 
+
+//start main screen style 
+.main-screen
+    background: #4D576D
+    padding-top: 129px
+    padding-bottom: 432px
+    text-align: center
+    color: #fff
+    .h3 
+        width: 900px 
+        max-width: 100% 
+        margin-left: auto 
+        margin-right: auto
+.main-screen__logo 
+    margin-bottom: 82px
+.featured-products 
+    .container-fluid 
+        background: #F0F3FA
+        border-radius: 8px
+        padding-top: 51px
+        transform: translateY(-340px)
+        height: 753px
+//end main screen style 
+
+//start footer
+.footer 
+    background: $blue
+    padding-top: 112px 
+    padding-bottom: 40px
+    color: #fff
+    font-size: 18px 
+    font-weight: 500
+    a 
+        color: #fff 
+        text-decoration: none
+        display: block
+        font-weight: 500
+
+    .container-fluid 
+        width: 1660px 
+        max-wdth: 95vw
+.footer__row 
+    display: flex 
+    justify-content: space-between
+.leng-row
+    display: flex
+.footer__col--leng
+    align-self: flex-end   
+    transform: translateY(100%)
+.footer .leng-col
+    margin-right: 15px
+    color: rgba(#F3F3F3, 0.3)
+    font-size: 24px
+.footer .leng-col:last-child 
+    margin-right: 0
+.footer .leng-col.active 
+    color: $aqua
+.footer__input
+    width: 247px
+    height: 100% 
+    border: 1px solid $aqua
+    border-radius: 5px
+    background: transparent
+    outline: none 
+    padding: 0 15px
+    color: #fff
+.footer-form
+    margin-top: 8px 
+    display: flex 
+    justify-content: space-between 
+    align-items: center
+    height: 38px
+.footer__submit
+    background: $aqua
+    color: #fff
+    height: 100%
+    border: none
+    width: 104px 
+    border-radius: 5px
+    margin-left: 9px
+.footer__input::placeholder 
+    color: rgba(#F3F3F3, .3)
+.footer__input:focus::placeholder    
+    color: transparent
+.footer-social
+    display: flex
+    a 
+        margin-right: 8px
+.footer-social
+    margin-top: 11px
+.main-screen__logo   
+    max-width: 80%
+//end footer
+
+//start cta 
+.cta 
+    padding-top: 65px 
+    padding-bottom: 121px
+    text-align: center
+    font-size: 42px 
+    font-weight: 600
+.cta-title
+    width: 1175px 
+    max-width: 100%
+    margin-left: auto 
+    margin-right: auto
+//end cta 
+
+
+
+.home-content
+    background: rgba(#C4CDD3, .5)  
+    padding-bottom: 126px
+//start partners 
+.partners 
+    padding-top: 196px 
+    padding-bottom: 58px
+    background: #F0F3FA
+.partners-row  
+    margin-top: 276px
+    display: flex 
+    justify-content: space-between
+    padding-bottom: 179px
+.partners__item
+    text-align: center
+.icon-wrapper
+    height: 109px
+    img 
+        margin-left: auto 
+        margin-right: auto
+        display: block
+        max-width: 100%
+//end partners 
+.learn-more__wrapper
+    width: 100% 
+    display: flex 
+    justify-content: flex-end
+.learn-more
+    font-size: 25px 
+    font-weight: 700 
+    color: $aqua
+    text-transform: uppercase
+.product-applications__item
+    width: 100% 
+    //background: #979797
+    height: 321px
+    color: #fff
+    padding: 16px 25px 
+    display: flex 
+    align-items: flex-end
+    margin-top: 31px
+.product-applications__title 
+    font-size: 38px 
+    font-weight: 600 
+    text-transform: uppercase
+    line-height: 1.2
+.product-applications
+    margin-top: -145px    
+
+//start slider section 
+.slider-section
+    padding-top: 198px
+.slider-item
+    background: $blue
+    padding-bottom: 70px
+    min-height: 940px
+    border-radius: 8px
+    margin: 0 10px
+    overflow: hidden
+.slider-item-content
+    padding-top: 130px
+    padding-bottom: 75px
+    display: flex 
+    align-items: center
+.slider-img-wrapper 
+    width: 546px 
+    img 
+        max-width: 95%
+.img1 
+    margin-left: -36px
+.slider-title
+    font-size: 50px 
+    text-transform: uppercase
+    color: #fff
+    font-weight: 300
+    width: 613px 
+    max-width: 100%
+    line-height: 1.2
+    margin-bottom: 15px
+    span 
+        color: $aqua 
+        font-weight: 600
+.slider-text 
+    font-size: 28px 
+    width: 584px 
+    max-width: 100%
+    color: #fff
+    line-height: 1.2
+.slider-wrapper
+    width: 1296px 
+    max-width: 100%
+    margin-left: auto 
+    margin-right: auto
+.slider-row 
+    background: #C4CDD3
+    border-radius: 8px 
+    width: 1091px 
+    max-width: 95%
+    margin-left: auto 
+    margin-right: auto
+    padding-top: 18px 
+    padding-bottom: 10px
+.slider-row-item
+    text-align: center
+.slider-row-item__img
+    height: 126px 
+    margin-bottom: 20px
+    img 
+        max-height: 100% 
+        margin-left: auto 
+        margin-right: auto
+.slider-row-item__title
+    font-size: 22px 
+    font-weight: 600
+    color: $blue
+    line-height: 1.4
+.slider-row-item__text
+    font-size: 22px
+    font-weight: 400 
+    color: $blue
+    line-height: 1.2
+.slider-item--3
+    padding-top: 100px
+.img4  
+    margin-left: -24%
+.img5 
+    margin-left: 35px
+.slider-item--5
+    .slider-item-content
+        padding-top: 36px
+        padding-bottom: 40px
+.img-pipe
+    width: 130px   
+.slider-row-item__img
+    display: flex 
+    justify-content: center 
+    align-items: center    
+.prev,
+.next 
+    cursor: pointer
+    position: absolute
+    top: 50% 
+.prev 
+    transform: translateY(-100%) translateX(-180%)
+    left: 0
+.next
+    transform: translateY(-100%) translateX(180%)
+    right: 0
+.slider-wrapper
+    position: relative
+//end slider section 
+.f-slider .f-slider-item 
+    width: 326px 
+    background: $blue
+    margin: 0 14px
+    height: 487px
+    transition: all 0.8s
+    padding-top: 75px
+    
+
+.f-slider .slick-list
+    padding-left: 278px
+    padding-bottom: 50px
+    transition: all 0.8s
+.featured-products
+    .learn-more__wrapper 
+        padding-right: 74px
+.f-slider 
+    margin-top: 49px
+    .slick-current.slick-active
+        width: 447px
+        transition: all 0.8s
+        margin-left: 278px
+        
+    img 
+        width: 95%
+        margin-top: 73px
+        margin-left: 5%
+        transition: all 0.8s
+    .slick-current.slick-active
+        transition: all 0.8s
+        img 
+            transform: scale(1.5) translateX(-16%) translateY(15%)
+            transition: all 0.8s
+    .f-slider-item--2.slick-current.slick-active
+        transition: all 0.8s
+        img 
+            transform: scale(1.4) translateX(0%) translateY(0%)
+            transition: all 0.8s
+    .f-slider-item--3.slick-current.slick-active
+        transition: all 0.8s
+        img 
+            transform: scale(1.3) translateX(-2.5%) translateY(10%)
+            transition: all 0.8s
+    .f-slider-item--4.slick-current.slick-active
+        transition: all 0.8s
+        img 
+            transform: scale(1.1) translateX(-2.5%) translateY(-10%)
+            transition: all 0.8s
+    .f-slider-item--5 
+        transition: all 0.8s
+        img 
+            transform: scale(0.6) translateY(-20%)
+            transition: all 0.8s
+    .f-slider-item--5.slick-current.slick-active
+        transition: all 0.8s
+        img 
+            transform: scale(0.8) translateX(-2.5%) translateY(-20%)
+            transition: all 0.8s
+
+.f-slider__text
+    font-size: 18px 
+    font-weight: 600
+    color: #fff
+    width: 320px
+    padding-left: 27px 
+    padding-right: 27px
+
+.f-slider .slick-track
+    transition: all 0.8s
+	
+@import "media"
+
+
+
